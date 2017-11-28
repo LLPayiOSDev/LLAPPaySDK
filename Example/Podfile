@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LLAPPaySDK_Example' do
+  pod 'LLAPPaySDK', :path => '../'
+
+  target 'LLAPPaySDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
