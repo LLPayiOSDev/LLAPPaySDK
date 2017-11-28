@@ -22,6 +22,8 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		81AEE8115AF95A25C9DA3321 /* Pods_LLAPPaySDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 095F895CEF48B7AD834E8CAD /* Pods_LLAPPaySDK_Tests.framework */; };
+		83747A4A1FCD3725001F5F8E /* LLPayUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 83747A481FCD3725001F5F8E /* LLPayUtil.m */; };
+		83747A4D1FCD40C6001F5F8E /* libRsaCrypto.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83747A4C1FCD40C5001F5F8E /* libRsaCrypto.a */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		AE5349BC8729E3EDC62A5FD4 /* Pods_LLAPPaySDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E8DC17474A701CB3DACA30AF /* Pods_LLAPPaySDK_Example.framework */; };
 /* End PBXBuildFile section */
@@ -38,7 +40,7 @@
 
 /* Begin PBXFileReference section */
 		095F895CEF48B7AD834E8CAD /* Pods_LLAPPaySDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LLAPPaySDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0C58EBC729EA700472322AEA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0C58EBC729EA700472322AEA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		320FCAF85B2677D2C1AA9996 /* Pods-LLAPPaySDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLAPPaySDK_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LLAPPaySDK_Tests/Pods-LLAPPaySDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LLAPPaySDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLAPPaySDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -61,12 +63,16 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82DD0A2530F9D1F637085A81 /* Pods-LLAPPaySDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLAPPaySDK_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LLAPPaySDK_Example/Pods-LLAPPaySDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83747A481FCD3725001F5F8E /* LLPayUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLPayUtil.m; sourceTree = "<group>"; };
+		83747A491FCD3725001F5F8E /* LLPayUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLPayUtil.h; sourceTree = "<group>"; };
+		83747A4B1FCD3AFB001F5F8E /* LLAPPaySDK_Example.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = LLAPPaySDK_Example.entitlements; sourceTree = "<group>"; };
+		83747A4C1FCD40C5001F5F8E /* libRsaCrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libRsaCrypto.a; sourceTree = "<group>"; };
+		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A279455385EBF1CE6FA78B1B /* Pods-LLAPPaySDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLAPPaySDK_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LLAPPaySDK_Tests/Pods-LLAPPaySDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A3DF625D8F529D10CB669807 /* LLAPPaySDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LLAPPaySDK.podspec; path = ../LLAPPaySDK.podspec; sourceTree = "<group>"; };
+		A3DF625D8F529D10CB669807 /* LLAPPaySDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LLAPPaySDK.podspec; path = ../LLAPPaySDK.podspec; sourceTree = "<group>"; };
 		CEAF225AD2C34C77765D92B8 /* Pods-LLAPPaySDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLAPPaySDK_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LLAPPaySDK_Example/Pods-LLAPPaySDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E8DC17474A701CB3DACA30AF /* Pods_LLAPPaySDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LLAPPaySDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EC02690E96E70911B0A5C27A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EC02690E96E70911B0A5C27A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +84,7 @@
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
 				AE5349BC8729E3EDC62A5FD4 /* Pods_LLAPPaySDK_Example.framework in Frameworks */,
+				83747A4D1FCD40C6001F5F8E /* libRsaCrypto.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +105,7 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
+				83747A4B1FCD3AFB001F5F8E /* LLAPPaySDK_Example.entitlements */,
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for LLAPPaySDK */,
 				6003F5B5195388D20070C39A /* Tests */,
@@ -132,13 +140,9 @@
 		6003F593195388D20070C39A /* Example for LLAPPaySDK */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* LLAppDelegate.h */,
-				6003F59D195388D20070C39A /* LLAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* LLViewController.h */,
 				6003F5A6195388D20070C39A /* LLViewController.m */,
-				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
-				6003F5A8195388D20070C39A /* Images.xcassets */,
+				83747A4E1FCD410A001F5F8E /* LLPayUtil */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
 			name = "Example for LLAPPaySDK";
@@ -149,7 +153,12 @@
 			isa = PBXGroup;
 			children = (
 				6003F595195388D20070C39A /* LLAPPaySDK-Info.plist */,
+				6003F59C195388D20070C39A /* LLAppDelegate.h */,
+				6003F59D195388D20070C39A /* LLAppDelegate.m */,
+				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
+				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
+				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F599195388D20070C39A /* main.m */,
 				6003F59B195388D20070C39A /* LLAPPaySDK-Prefix.pch */,
 			);
@@ -183,6 +192,16 @@
 				0C58EBC729EA700472322AEA /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		83747A4E1FCD410A001F5F8E /* LLPayUtil */ = {
+			isa = PBXGroup;
+			children = (
+				83747A491FCD3725001F5F8E /* LLPayUtil.h */,
+				83747A481FCD3725001F5F8E /* LLPayUtil.m */,
+				83747A4C1FCD40C5001F5F8E /* libRsaCrypto.a */,
+			);
+			name = LLPayUtil;
 			sourceTree = "<group>";
 		};
 		F27AE4369795933EF3F19B37 /* Pods */ = {
@@ -250,6 +269,14 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = LLPayiOSDev;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = VM7X2GJGGF;
+						SystemCapabilities = {
+							com.apple.ApplePay = {
+								enabled = 0;
+							};
+						};
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -403,6 +430,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83747A4A1FCD3725001F5F8E /* LLPayUtil.m in Sources */,
 				6003F59E195388D20070C39A /* LLAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* LLViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
@@ -533,11 +561,17 @@
 			baseConfigurationReference = 82DD0A2530F9D1F637085A81 /* Pods-LLAPPaySDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VM7X2GJGGF;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LLAPPaySDK/LLAPPaySDK-Prefix.pch";
 				INFOPLIST_FILE = "LLAPPaySDK/LLAPPaySDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LLAPPaySDK",
+				);
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.LLAPPaySDK-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -548,11 +582,17 @@
 			baseConfigurationReference = CEAF225AD2C34C77765D92B8 /* Pods-LLAPPaySDK_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VM7X2GJGGF;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LLAPPaySDK/LLAPPaySDK-Prefix.pch";
 				INFOPLIST_FILE = "LLAPPaySDK/LLAPPaySDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LLAPPaySDK",
+				);
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.LLAPPaySDK-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

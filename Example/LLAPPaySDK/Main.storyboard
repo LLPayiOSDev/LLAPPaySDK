@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="whP-gf-Uak">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="wQg-tq-qST">
+            <objects>
+                <viewController id="whP-gf-Uak" customClass="LLViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="uEw-UM-LJ8"/>
+                        <viewControllerLayoutGuide type="bottom" id="Mvr-aV-6Um"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="TpU-gO-2f1">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c3Z-2y-YGa">
+                                <rect key="frame" x="16" y="120" width="343" height="50"/>
+                                <color key="backgroundColor" red="0.0" green="0.62745098039215685" blue="0.9137254901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="bCV-Lq-h2U"/>
+                                </constraints>
+                                <state key="normal" title=" Pay 支付">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="apPay:" destination="whP-gf-Uak" eventType="touchUpInside" id="Ew2-7X-QEy"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S6I-YV-zb5">
+                                <rect key="frame" x="16" y="190" width="343" height="50"/>
+                                <color key="backgroundColor" red="0.0" green="0.62745098039215685" blue="0.9137254901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="naD-HA-coZ"/>
+                                </constraints>
+                                <state key="normal" title=" Pay 预授权">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="apPreAuthPay:" destination="whP-gf-Uak" eventType="touchUpInside" id="pAj-xQ-jsb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eb7-5h-hQg">
+                                <rect key="frame" x="16" y="260" width="343" height="50"/>
+                                <color key="backgroundColor" red="0.0" green="0.62745098040000002" blue="0.91372549020000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="QYW-jP-cW1"/>
+                                </constraints>
+                                <state key="normal" title="查看是否支持">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="checkSupportStatus:" destination="whP-gf-Uak" eventType="touchUpInside" id="P7h-yb-UEj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c6r-Ty-YYV">
+                                <rect key="frame" x="16" y="330" width="343" height="50"/>
+                                <color key="backgroundColor" red="0.0" green="0.62745098040000002" blue="0.91372549020000005" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="JF2-FV-EGb"/>
+                                </constraints>
+                                <state key="normal" title="跳转Wallet绑卡">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="25"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="bindCardForAPPay:" destination="whP-gf-Uak" eventType="touchUpInside" id="Wvy-pe-fdL"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="连连   Pay" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="t1R-BO-Vct">
+                                <rect key="frame" x="16" y="60" width="273" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="ZJ0-0c-Zx2"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y0i-um-nIZ">
+                                <rect key="frame" x="299" y="70" width="60" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="TNE-9r-LSV"/>
+                                    <constraint firstAttribute="height" constant="30" id="qGk-jB-tQg"/>
+                                </constraints>
+                                <state key="normal" title="Version">
+                                    <color key="titleColor" red="0.0" green="0.62745098039215685" blue="0.9137254901960784" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="showSDKVersion:" destination="whP-gf-Uak" eventType="touchUpInside" id="Q47-Tk-IZ1"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nan-6P-Cmg">
+                                <rect key="frame" x="16" y="400" width="343" height="267"/>
+                                <string key="text">为了让Demo正常运行， 请更换自己在连连报备过的BundleID， 打开Pay开关，勾选对应merchantID，更换创单方法中商户号，signType，merchantID、RSA私钥等信息
+
+Demo中为了方便演示， 所以将加签过程以及密钥放在本地,但是在真实APP中， 
+请务必⚠️将privateKey和加签过程放在商户服务端⚠️
+以防止商户私密数据泄露，造成不必要的资金损失，及面临各种安全风险</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Eb7-5h-hQg" firstAttribute="trailing" secondItem="TpU-gO-2f1" secondAttribute="trailingMargin" id="8YQ-6L-mh4"/>
+                            <constraint firstItem="c6r-Ty-YYV" firstAttribute="top" secondItem="Eb7-5h-hQg" secondAttribute="bottom" constant="20" id="9nn-mA-qSw"/>
+                            <constraint firstItem="nan-6P-Cmg" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" id="Cty-9Z-ifu"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="nan-6P-Cmg" secondAttribute="trailing" id="OM1-sK-wxq"/>
+                            <constraint firstItem="Y0i-um-nIZ" firstAttribute="leading" secondItem="t1R-BO-Vct" secondAttribute="trailing" constant="10" id="PuY-mo-zBb"/>
+                            <constraint firstItem="S6I-YV-zb5" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" id="Shx-Kw-gvB"/>
+                            <constraint firstItem="Eb7-5h-hQg" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" id="Uix-NS-Gdj"/>
+                            <constraint firstItem="c3Z-2y-YGa" firstAttribute="top" secondItem="t1R-BO-Vct" secondAttribute="bottom" constant="20" id="aPh-eU-RMC"/>
+                            <constraint firstItem="Mvr-aV-6Um" firstAttribute="top" secondItem="nan-6P-Cmg" secondAttribute="bottom" id="d3g-EM-6KQ"/>
+                            <constraint firstItem="c3Z-2y-YGa" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" id="fYF-YN-S8F"/>
+                            <constraint firstItem="c6r-Ty-YYV" firstAttribute="trailing" secondItem="TpU-gO-2f1" secondAttribute="trailingMargin" id="g7I-70-qMP"/>
+                            <constraint firstItem="Y0i-um-nIZ" firstAttribute="trailing" secondItem="TpU-gO-2f1" secondAttribute="trailingMargin" id="i9B-Ny-SmO"/>
+                            <constraint firstItem="t1R-BO-Vct" firstAttribute="top" secondItem="uEw-UM-LJ8" secondAttribute="bottom" constant="40" id="lVx-0l-cVi"/>
+                            <constraint firstItem="S6I-YV-zb5" firstAttribute="top" secondItem="c3Z-2y-YGa" secondAttribute="bottom" constant="20" id="lsq-BB-GX3"/>
+                            <constraint firstItem="S6I-YV-zb5" firstAttribute="trailing" secondItem="TpU-gO-2f1" secondAttribute="trailingMargin" id="m23-ST-UkX"/>
+                            <constraint firstItem="c6r-Ty-YYV" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" id="n29-0W-xDO"/>
+                            <constraint firstItem="Eb7-5h-hQg" firstAttribute="top" secondItem="S6I-YV-zb5" secondAttribute="bottom" constant="20" id="shg-hk-kZg"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="c3Z-2y-YGa" secondAttribute="trailing" id="w74-oX-wDC"/>
+                            <constraint firstItem="Y0i-um-nIZ" firstAttribute="bottom" secondItem="t1R-BO-Vct" secondAttribute="bottom" id="wN7-BS-UEN"/>
+                            <constraint firstItem="nan-6P-Cmg" firstAttribute="top" secondItem="c6r-Ty-YYV" secondAttribute="bottom" constant="20" id="wPE-qv-anI"/>
+                            <constraint firstItem="t1R-BO-Vct" firstAttribute="leading" secondItem="TpU-gO-2f1" secondAttribute="leadingMargin" id="zQs-2a-oYN"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="304.80000000000001" y="432.23388305847078"/>
+        </scene>
+    </scenes>
+</document>
