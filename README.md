@@ -59,4 +59,4 @@ LLPayiOSDev, iosdev@yintong.com.cn
 
 ## License
 
-LLAPPaySDK is available under the MIT license. See the LICENSE file for more info.
+© 2003-2018 Lianlian Yintong Electronic Payment Co., Ltd. All rights reserved.
