@@ -9,7 +9,7 @@
 #import "LLViewController.h"
 #import <LLAPPaySDK/LLAPPaySDK.h>
 
-@interface LLViewController () <LLPaySdkDelegate>
+@interface LLViewController () <LLPStdSDKDelegate>
 
 @end
 
@@ -54,7 +54,7 @@
 }
 
 - (IBAction)showSDKVersion:(id)sender {
-    NSString *version = [NSString stringWithFormat:@"BuildVersion: %@\nVersion:%@",kLLPaySDKBuildVersion, kLLPaySDKVersion];
+    NSString *version = [NSString stringWithFormat:@"Version:%@", kLLPStdSDKVersion];
     [self llAlertWithTitle:@"SDKVersion" andMsg:version];
 }
 
@@ -106,26 +106,26 @@
 
 #pragma mark - Delegate
 
-- (void)paymentEnd:(LLPayResult)resultCode withResultDic:(NSDictionary *)dic {
+- (void)paymentEnd:(LLPStdSDKResult)resultCode withResultDic:(NSDictionary *)dic {
     NSLog(@"%@",[LLPayUtil jsonStringOfObj:dic]);
     NSString *msg = nil;
     switch (resultCode) {
-        case kLLPayResultSuccess:
+        case LLPStdSDKResultSuccess:
             msg = @"成功";
             break;
-        case kLLPayResultFail:
+        case LLPStdSDKResultFail:
             msg = @"失败";
             break;
-        case kLLPayResultCancel:
+        case LLPStdSDKResultCancel:
             msg = @"取消";
             break;
-        case kLLPayResultInitError:
+        case LLPStdSDKResultInitError:
             msg = @"初始化异常";
             break;
-        case kLLPayResultInitParamError:
+        case LLPStdSDKResultInitParamError:
             msg = dic[@"ret_msg"];
             break;
-        case kLLPayResultRequestingCancel:
+        case LLPStdSDKResultRequestingCancel:
             msg = @"支付中取消";
         default:
             msg = @"异常";
