@@ -69,7 +69,7 @@
 		83747A4C1FCD40C5001F5F8E /* libRsaCrypto.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libRsaCrypto.a; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		A279455385EBF1CE6FA78B1B /* Pods-LLAPPaySDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLAPPaySDK_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LLAPPaySDK_Tests/Pods-LLAPPaySDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A3DF625D8F529D10CB669807 /* LLAPPaySDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LLAPPaySDK.podspec; path = ../LLAPPaySDK.podspec; sourceTree = "<group>"; };
+		A3DF625D8F529D10CB669807 /* LLAPPaySDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LLAPPaySDK.podspec; path = ../LLAPPaySDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		CEAF225AD2C34C77765D92B8 /* Pods-LLAPPaySDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLAPPaySDK_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LLAPPaySDK_Example/Pods-LLAPPaySDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		E8DC17474A701CB3DACA30AF /* Pods_LLAPPaySDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LLAPPaySDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC02690E96E70911B0A5C27A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -266,10 +266,10 @@
 				ORGANIZATIONNAME = LLPayiOSDev;
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = VM7X2GJGGF;
+						DevelopmentTeam = SFQKF44DFK;
 						SystemCapabilities = {
 							com.apple.ApplePay = {
-								enabled = 0;
+								enabled = 1;
 							};
 						};
 					};
@@ -283,6 +283,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -494,7 +495,8 @@
 			baseConfigurationReference = 82DD0A2530F9D1F637085A81 /* Pods-LLAPPaySDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = VM7X2GJGGF;
+				CODE_SIGN_ENTITLEMENTS = LLAPPaySDK_Example.entitlements;
+				DEVELOPMENT_TEAM = SFQKF44DFK;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LLAPPaySDK/LLAPPaySDK-Prefix.pch";
 				INFOPLIST_FILE = "LLAPPaySDK/LLAPPaySDK-Info.plist";
@@ -504,7 +506,7 @@
 					"$(PROJECT_DIR)/LLAPPaySDK",
 				);
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.LLAPPaySDK-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = com.llyt.APDemoPaysz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -515,7 +517,8 @@
 			baseConfigurationReference = CEAF225AD2C34C77765D92B8 /* Pods-LLAPPaySDK_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = VM7X2GJGGF;
+				CODE_SIGN_ENTITLEMENTS = LLAPPaySDK_Example.entitlements;
+				DEVELOPMENT_TEAM = SFQKF44DFK;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LLAPPaySDK/LLAPPaySDK-Prefix.pch";
 				INFOPLIST_FILE = "LLAPPaySDK/LLAPPaySDK-Info.plist";
@@ -525,7 +528,7 @@
 					"$(PROJECT_DIR)/LLAPPaySDK",
 				);
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.LLAPPaySDK-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = com.llyt.APDemoPaysz;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LLAPPaySDK'
-  s.version          = '2.7.6'
+  s.version          = '2.7.8'
   s.summary          = 'LLAPPaySDK.'
   s.description      = <<-DESC
 LLAPPaySDK 是连连支付的  Pay SDK ， 可以调起苹果的  Pay
