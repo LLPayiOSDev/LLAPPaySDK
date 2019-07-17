@@ -266,7 +266,7 @@
 				ORGANIZATIONNAME = LLPayiOSDev;
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = SFQKF44DFK;
+						ProvisioningStyle = Manual;
 						SystemCapabilities = {
 							com.apple.ApplePay = {
 								enabled = 1;
@@ -496,7 +496,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = LLAPPaySDK_Example.entitlements;
-				DEVELOPMENT_TEAM = SFQKF44DFK;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LLAPPaySDK/LLAPPaySDK-Prefix.pch";
 				INFOPLIST_FILE = "LLAPPaySDK/LLAPPaySDK-Info.plist";
@@ -506,8 +507,9 @@
 					"$(PROJECT_DIR)/LLAPPaySDK",
 				);
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = com.llyt.APDemoPaysz;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lianlianpay.llappaysdkpoddemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -518,7 +520,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = LLAPPaySDK_Example.entitlements;
-				DEVELOPMENT_TEAM = SFQKF44DFK;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LLAPPaySDK/LLAPPaySDK-Prefix.pch";
 				INFOPLIST_FILE = "LLAPPaySDK/LLAPPaySDK-Info.plist";
@@ -528,8 +531,9 @@
 					"$(PROJECT_DIR)/LLAPPaySDK",
 				);
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = com.llyt.APDemoPaysz;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lianlianpay.llappaysdkpoddemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -1,19 +1,19 @@
 {
   "name": "LLAPPaySDK",
-  "version": "2.7.8",
+  "version": "2.7.9",
   "summary": "LLAPPaySDK.",
   "description": "LLAPPaySDK 是连连支付的  Pay SDK ， 可以调起苹果的  Pay",
   "homepage": "https://github.com/LLPayiOSDev/LLAPPaySDK",
   "license": {
     "type": "Copyright",
-    "text": "© 2003-2018 Lianlian Yintong Electronic Payment Co., Ltd. All rights reserved."
+    "text": "© 2003-2019 Lianlian Yintong Electronic Payment Co., Ltd. All rights reserved."
   },
   "authors": {
-    "LLPayiOSDev": "iosdev@yintong.com.cn"
+    "LLPayiOSDev": "iosdev@lianlianpay.com"
   },
   "source": {
     "git": "https://github.com/LLPayiOSDev/LLAPPaySDK.git",
-    "tag": "2.7.8"
+    "tag": "2.7.9"
   },
   "platforms": {
     "ios": "8.0"
@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "LLPay/Core": [
-
+      "2.7.9"
     ]
   }
 }

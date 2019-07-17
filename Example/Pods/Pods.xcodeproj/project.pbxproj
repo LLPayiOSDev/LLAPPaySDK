@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXAggregateTarget section */
-		12A937244971A44F9443FB727F0B74D3 /* LLPay */ = {
+		504788249874A59923DA8FDAA3B631A8 /* LLPay */ = {
 			isa = PBXAggregateTarget;
 			buildConfigurationList = 9831F72F3059B4C1634237737518BAD7 /* Build configuration list for PBXAggregateTarget "LLPay" */;
 			buildPhases = (
@@ -16,7 +16,7 @@
 			);
 			name = LLPay;
 		};
-		B1FC4DFE2A6B006CE758BC7BB79BBFAC /* LLAPPaySDK */ = {
+		71ADD57B19823BB92099975E7DF4AA7D /* LLAPPaySDK */ = {
 			isa = PBXAggregateTarget;
 			buildConfigurationList = A423BCBF18073344751EC3571ED763DA /* Build configuration list for PBXAggregateTarget "LLAPPaySDK" */;
 			buildPhases = (
@@ -29,12 +29,12 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		0B219C4885429D9FEFA62322FAEC6A91 /* Pods-LLAPPaySDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D085C083794ECBEB2FE1F887DBAC151 /* Pods-LLAPPaySDK_Example-dummy.m */; };
-		5EAAFD5624B8FE94FD1E4E8F4DEF6A4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		60AFE3D3D1BD020942374CEB75A841E0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		625881DD1FD3ACFA2C1A2D172159908C /* Pods-LLAPPaySDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D91BE85DD0983F9927721928618F4A2D /* Pods-LLAPPaySDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B82F6900EA15A82443092EDBE051A634 /* Pods-LLAPPaySDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B1F505DC27C9B987426980DB7059F24 /* Pods-LLAPPaySDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C2FEDD5637CE7B3E8A8FD8A942953FE5 /* Pods-LLAPPaySDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A0B012F79FC1BB6559CA6ECE10DB599 /* Pods-LLAPPaySDK_Tests-dummy.m */; };
+		29EB4552B2656CFEFD10E3BD8B451B84 /* Pods-LLAPPaySDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A897623A7C7A91ADF3F102EF811F0C8 /* Pods-LLAPPaySDK_Tests-dummy.m */; };
+		52C756B9B981255BDE3A965728435635 /* Pods-LLAPPaySDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 448100178B6429B8A7D0B8AA9D2B90BB /* Pods-LLAPPaySDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9362DC09C32DBC70C8CE81EB96338ED9 /* Pods-LLAPPaySDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B58F38335F4D4CE90F5A913EA79BA63 /* Pods-LLAPPaySDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD770FB2B2BC817709C56CDEF24382B9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		B6A8E6E2D69A0907264A5FE94084E157 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		C5822D9E1EB9B09BD3CF321972211664 /* Pods-LLAPPaySDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF162C377F9ED853212C0237D6FEC22 /* Pods-LLAPPaySDK_Example-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,78 +42,78 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 12A937244971A44F9443FB727F0B74D3;
+			remoteGlobalIDString = 504788249874A59923DA8FDAA3B631A8;
 			remoteInfo = LLPay;
 		};
-		528FD7FD70A65FE8CB2E844D4A2A969A /* PBXContainerItemProxy */ = {
+		660BE31ADEF1AAB1E25AA16A919292DE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B1FC4DFE2A6B006CE758BC7BB79BBFAC;
+			remoteGlobalIDString = 71ADD57B19823BB92099975E7DF4AA7D;
 			remoteInfo = LLAPPaySDK;
 		};
-		83F801CC217716DEEBD5C63589384C5C /* PBXContainerItemProxy */ = {
+		AE2DC5B08A7927C55B45E5E0649BA3AB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = A309DBDEA73F0189369C7EF3C8AD8972;
+			remoteGlobalIDString = E8210D530BD9AC7F09B576BED0E7B1CE;
 			remoteInfo = "Pods-LLAPPaySDK_Example";
 		};
-		C1FF5FC359DAFFBEEC9AA2339FB3C2AA /* PBXContainerItemProxy */ = {
+		B595D8EADA447C64B38BC9B9B01733AA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 12A937244971A44F9443FB727F0B74D3;
+			remoteGlobalIDString = 504788249874A59923DA8FDAA3B631A8;
 			remoteInfo = LLPay;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		131CD4F1176DD787512D183A444FB66E /* Pods-LLAPPaySDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LLAPPaySDK_Tests-Info.plist"; sourceTree = "<group>"; };
+		0C9D9A40A7C74D1F349BBE4CB2A98FE1 /* Pods-LLAPPaySDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LLAPPaySDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		121763B42C577FCF4DEA40FABEB81773 /* Pods-LLAPPaySDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LLAPPaySDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		1857243E4DCE984C333927553B0EFD98 /* LLPay.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLPay.h; path = LLPay/Core/LLPay.h; sourceTree = "<group>"; };
-		1A0B012F79FC1BB6559CA6ECE10DB599 /* Pods-LLAPPaySDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LLAPPaySDK_Tests-dummy.m"; sourceTree = "<group>"; };
-		1D7BB2652C5D2E312E1E060161C94B78 /* Pods_LLAPPaySDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LLAPPaySDK_Tests.framework; path = "Pods-LLAPPaySDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		28DC442B203FE926B68CC934E7D31732 /* Pods-LLAPPaySDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LLAPPaySDK_Example.modulemap"; sourceTree = "<group>"; };
+		1B58F38335F4D4CE90F5A913EA79BA63 /* Pods-LLAPPaySDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LLAPPaySDK_Example-umbrella.h"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		33B6F2BAB6332311FCFF9A9DCF26A1D5 /* LLPay.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LLPay.xcconfig; sourceTree = "<group>"; };
 		345BB54808BC385462684E65428ADCCF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		3B1F505DC27C9B987426980DB7059F24 /* Pods-LLAPPaySDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LLAPPaySDK_Example-umbrella.h"; sourceTree = "<group>"; };
-		4C80EF32D39887B7F2B5A88BC0A01AF9 /* Pods-LLAPPaySDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LLAPPaySDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		448100178B6429B8A7D0B8AA9D2B90BB /* Pods-LLAPPaySDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LLAPPaySDK_Tests-umbrella.h"; sourceTree = "<group>"; };
+		4976631FD0D644D5F1B1E70B2A02B672 /* Pods-LLAPPaySDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LLAPPaySDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4C67E4755697E32A9FA4F24DE9C0BAB5 /* Pods_LLAPPaySDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LLAPPaySDK_Example.framework; path = "Pods-LLAPPaySDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D2D45AB69DA51BD68E0270D4EB8C0FF /* Pods-LLAPPaySDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LLAPPaySDK_Example.release.xcconfig"; sourceTree = "<group>"; };
+		52D839419C6AC9BCC0FD89B05CB60AB5 /* Pods_LLAPPaySDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LLAPPaySDK_Tests.framework; path = "Pods-LLAPPaySDK_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CCCB78D4DC912BA116FF8CC12BCD550 /* LLAPPaySDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = LLAPPaySDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		6328A5F9E8617DC81F563B231F8993CF /* Pods-LLAPPaySDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LLAPPaySDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		677630422BFAAF9B76D6CB3C866D17EC /* Pods-LLAPPaySDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LLAPPaySDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6961D4C388286D8DA6BFA9F1DF3F7F56 /* LLAPPaySDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LLAPPaySDK.h; path = LLAPPaySDK/LLAPPaySDK.h; sourceTree = "<group>"; };
-		6B0C9403A3D1C9FF4B1D010687BFC664 /* Pods-LLAPPaySDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LLAPPaySDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		6D085C083794ECBEB2FE1F887DBAC151 /* Pods-LLAPPaySDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LLAPPaySDK_Example-dummy.m"; sourceTree = "<group>"; };
+		73677B932AC3EB7BE57C808164FFB8C7 /* Pods-LLAPPaySDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LLAPPaySDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		73E8A337B26C3B3A48D7958CD8CBBCBB /* Pods-LLAPPaySDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LLAPPaySDK_Tests-Info.plist"; sourceTree = "<group>"; };
 		756E5B3296F3F8C36721C653B6369E60 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		7778FEE77E4D9DE58F0CA7287953A60A /* libLLAPPaySDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libLLAPPaySDK.a; path = LLAPPaySDK/libLLAPPaySDK.a; sourceTree = "<group>"; };
-		7B68AC69488B39D63260D6A708819CA6 /* Pods-LLAPPaySDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LLAPPaySDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		80D4BCBA7F76C8A8438A11193542E5AF /* Pods-LLAPPaySDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LLAPPaySDK_Example.modulemap"; sourceTree = "<group>"; };
+		8BF89A6C582A0ABF9C9B4EFDCC9BD19E /* Pods-LLAPPaySDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LLAPPaySDK_Tests.modulemap"; sourceTree = "<group>"; };
+		9A897623A7C7A91ADF3F102EF811F0C8 /* Pods-LLAPPaySDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LLAPPaySDK_Tests-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A235D2FF8D211697B2F421859E2A8AA1 /* Pods-LLAPPaySDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LLAPPaySDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		AC7810367080ADE14180D9317706C82A /* Pods-LLAPPaySDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LLAPPaySDK_Example-Info.plist"; sourceTree = "<group>"; };
+		9EA15C916713E56B131270DE518E0326 /* Pods-LLAPPaySDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LLAPPaySDK_Example-Info.plist"; sourceTree = "<group>"; };
+		9F8FB4433097B17882D44046509B46A3 /* Pods-LLAPPaySDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LLAPPaySDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		BDF162C377F9ED853212C0237D6FEC22 /* Pods-LLAPPaySDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LLAPPaySDK_Example-dummy.m"; sourceTree = "<group>"; };
 		C38215D95F6D807CBF859954E9C19E67 /* libLLPStdSDKCore.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libLLPStdSDKCore.a; path = LLPay/Core/libLLPStdSDKCore.a; sourceTree = "<group>"; };
-		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		D91BE85DD0983F9927721928618F4A2D /* Pods-LLAPPaySDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LLAPPaySDK_Tests-umbrella.h"; sourceTree = "<group>"; };
-		E86B289AFB07926FFCF22D9094436F44 /* Pods_LLAPPaySDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LLAPPaySDK_Example.framework; path = "Pods-LLAPPaySDK_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		ECDDEBDE828643F9C3ED24D75F97E81C /* Pods-LLAPPaySDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LLAPPaySDK_Tests.modulemap"; sourceTree = "<group>"; };
-		ED3AA73FC51C81970F6134C22DC7CCBF /* Pods-LLAPPaySDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LLAPPaySDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DFADC2C5CB1F11522306289B11B63715 /* Pods-LLAPPaySDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LLAPPaySDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E8A1C5D16675095F977CBBDA4B9A1C0D /* Pods-LLAPPaySDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LLAPPaySDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F85132D30AC5CE13C30362BB8DDB7204 /* LLAPPaySDK.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LLAPPaySDK.xcconfig; sourceTree = "<group>"; };
-		F89402F224ABC068BCF26D37B5A39B43 /* Pods-LLAPPaySDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LLAPPaySDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3952922C00C8EFE0E7B3DF7A493B9067 /* Frameworks */ = {
+		775E46F7B2E21C4EF1C43E5625C3A442 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EAAFD5624B8FE94FD1E4E8F4DEF6A4E /* Foundation.framework in Frameworks */,
+				AD770FB2B2BC817709C56CDEF24382B9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F0EC94E4DD0B82B898E97933A5CC38D /* Frameworks */ = {
+		99499199F533B3A15BEC0860D668017C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				60AFE3D3D1BD020942374CEB75A841E0 /* Foundation.framework in Frameworks */,
+				B6A8E6E2D69A0907264A5FE94084E157 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -142,8 +142,8 @@
 		24A638AD7192122159650DDB5E5C5C24 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F59BAB9F8F0D029AC7823233F5B108A8 /* Pods-LLAPPaySDK_Example */,
-				C190D466F048911F5AE8A2ED93F6FF19 /* Pods-LLAPPaySDK_Tests */,
+				A3AE3E49894AE4D76595EAF6D55DECAB /* Pods-LLAPPaySDK_Example */,
+				4883AB3A5F10B0BE6DFC1EB5E3E977D4 /* Pods-LLAPPaySDK_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -164,6 +164,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4883AB3A5F10B0BE6DFC1EB5E3E977D4 /* Pods-LLAPPaySDK_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8BF89A6C582A0ABF9C9B4EFDCC9BD19E /* Pods-LLAPPaySDK_Tests.modulemap */,
+				73677B932AC3EB7BE57C808164FFB8C7 /* Pods-LLAPPaySDK_Tests-acknowledgements.markdown */,
+				121763B42C577FCF4DEA40FABEB81773 /* Pods-LLAPPaySDK_Tests-acknowledgements.plist */,
+				9A897623A7C7A91ADF3F102EF811F0C8 /* Pods-LLAPPaySDK_Tests-dummy.m */,
+				73E8A337B26C3B3A48D7958CD8CBBCBB /* Pods-LLAPPaySDK_Tests-Info.plist */,
+				448100178B6429B8A7D0B8AA9D2B90BB /* Pods-LLAPPaySDK_Tests-umbrella.h */,
+				4976631FD0D644D5F1B1E70B2A02B672 /* Pods-LLAPPaySDK_Tests.debug.xcconfig */,
+				E8A1C5D16675095F977CBBDA4B9A1C0D /* Pods-LLAPPaySDK_Tests.release.xcconfig */,
+			);
+			name = "Pods-LLAPPaySDK_Tests";
+			path = "Target Support Files/Pods-LLAPPaySDK_Tests";
+			sourceTree = "<group>";
+		};
 		6A20371908F1A2CD5FE46D3C121BA942 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -182,20 +198,28 @@
 			path = "Example/Pods/Target Support Files/LLAPPaySDK";
 			sourceTree = "<group>";
 		};
-		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
 		9E4BFCB4459F57DC4DC1F6C13DC62AD8 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
 				B554274163225781900E5789C58A5C4E /* LLAPPaySDK */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		A3AE3E49894AE4D76595EAF6D55DECAB /* Pods-LLAPPaySDK_Example */ = {
+			isa = PBXGroup;
+			children = (
+				80D4BCBA7F76C8A8438A11193542E5AF /* Pods-LLAPPaySDK_Example.modulemap */,
+				DFADC2C5CB1F11522306289B11B63715 /* Pods-LLAPPaySDK_Example-acknowledgements.markdown */,
+				9F8FB4433097B17882D44046509B46A3 /* Pods-LLAPPaySDK_Example-acknowledgements.plist */,
+				BDF162C377F9ED853212C0237D6FEC22 /* Pods-LLAPPaySDK_Example-dummy.m */,
+				9EA15C916713E56B131270DE518E0326 /* Pods-LLAPPaySDK_Example-Info.plist */,
+				1B58F38335F4D4CE90F5A913EA79BA63 /* Pods-LLAPPaySDK_Example-umbrella.h */,
+				0C9D9A40A7C74D1F349BBE4CB2A98FE1 /* Pods-LLAPPaySDK_Example.debug.xcconfig */,
+				4D2D45AB69DA51BD68E0270D4EB8C0FF /* Pods-LLAPPaySDK_Example.release.xcconfig */,
+			);
+			name = "Pods-LLAPPaySDK_Example";
+			path = "Target Support Files/Pods-LLAPPaySDK_Example";
 			sourceTree = "<group>";
 		};
 		B554274163225781900E5789C58A5C4E /* LLAPPaySDK */ = {
@@ -213,26 +237,18 @@
 		B5D165F069A476F3A45F28A98DA1A8EE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E86B289AFB07926FFCF22D9094436F44 /* Pods_LLAPPaySDK_Example.framework */,
-				1D7BB2652C5D2E312E1E060161C94B78 /* Pods_LLAPPaySDK_Tests.framework */,
+				4C67E4755697E32A9FA4F24DE9C0BAB5 /* Pods_LLAPPaySDK_Example.framework */,
+				52D839419C6AC9BCC0FD89B05CB60AB5 /* Pods_LLAPPaySDK_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C190D466F048911F5AE8A2ED93F6FF19 /* Pods-LLAPPaySDK_Tests */ = {
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				ECDDEBDE828643F9C3ED24D75F97E81C /* Pods-LLAPPaySDK_Tests.modulemap */,
-				ED3AA73FC51C81970F6134C22DC7CCBF /* Pods-LLAPPaySDK_Tests-acknowledgements.markdown */,
-				F89402F224ABC068BCF26D37B5A39B43 /* Pods-LLAPPaySDK_Tests-acknowledgements.plist */,
-				1A0B012F79FC1BB6559CA6ECE10DB599 /* Pods-LLAPPaySDK_Tests-dummy.m */,
-				131CD4F1176DD787512D183A444FB66E /* Pods-LLAPPaySDK_Tests-Info.plist */,
-				D91BE85DD0983F9927721928618F4A2D /* Pods-LLAPPaySDK_Tests-umbrella.h */,
-				6B0C9403A3D1C9FF4B1D010687BFC664 /* Pods-LLAPPaySDK_Tests.debug.xcconfig */,
-				4C80EF32D39887B7F2B5A88BC0A01AF9 /* Pods-LLAPPaySDK_Tests.release.xcconfig */,
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
 			);
-			name = "Pods-LLAPPaySDK_Tests";
-			path = "Target Support Files/Pods-LLAPPaySDK_Tests";
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		C843993824E7B1B9E9CA040DDD9A27CB /* Pod */ = {
@@ -260,7 +276,7 @@
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -273,81 +289,65 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F59BAB9F8F0D029AC7823233F5B108A8 /* Pods-LLAPPaySDK_Example */ = {
-			isa = PBXGroup;
-			children = (
-				28DC442B203FE926B68CC934E7D31732 /* Pods-LLAPPaySDK_Example.modulemap */,
-				677630422BFAAF9B76D6CB3C866D17EC /* Pods-LLAPPaySDK_Example-acknowledgements.markdown */,
-				A235D2FF8D211697B2F421859E2A8AA1 /* Pods-LLAPPaySDK_Example-acknowledgements.plist */,
-				6D085C083794ECBEB2FE1F887DBAC151 /* Pods-LLAPPaySDK_Example-dummy.m */,
-				AC7810367080ADE14180D9317706C82A /* Pods-LLAPPaySDK_Example-Info.plist */,
-				3B1F505DC27C9B987426980DB7059F24 /* Pods-LLAPPaySDK_Example-umbrella.h */,
-				7B68AC69488B39D63260D6A708819CA6 /* Pods-LLAPPaySDK_Example.debug.xcconfig */,
-				6328A5F9E8617DC81F563B231F8993CF /* Pods-LLAPPaySDK_Example.release.xcconfig */,
-			);
-			name = "Pods-LLAPPaySDK_Example";
-			path = "Target Support Files/Pods-LLAPPaySDK_Example";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1D1A70E1AB46893761BD021BE4A783FD /* Headers */ = {
+		658490C05E22DD257F7BD4B7F4427BA5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				625881DD1FD3ACFA2C1A2D172159908C /* Pods-LLAPPaySDK_Tests-umbrella.h in Headers */,
+				52C756B9B981255BDE3A965728435635 /* Pods-LLAPPaySDK_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2F82048A1544C411188A846687E871F8 /* Headers */ = {
+		F0C9DC0A0E7E9CD8F7096B387AD41CF5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B82F6900EA15A82443092EDBE051A634 /* Pods-LLAPPaySDK_Example-umbrella.h in Headers */,
+				9362DC09C32DBC70C8CE81EB96338ED9 /* Pods-LLAPPaySDK_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		A309DBDEA73F0189369C7EF3C8AD8972 /* Pods-LLAPPaySDK_Example */ = {
+		4F649C8503C06D0CFA3B8D6F7BE19ECA /* Pods-LLAPPaySDK_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 29228E9E2027178680C85D7F528BDB82 /* Build configuration list for PBXNativeTarget "Pods-LLAPPaySDK_Example" */;
+			buildConfigurationList = 5D9D7E755B2A728F7C4C98D73D2D62FC /* Build configuration list for PBXNativeTarget "Pods-LLAPPaySDK_Tests" */;
 			buildPhases = (
-				2F82048A1544C411188A846687E871F8 /* Headers */,
-				5C32B7351E53FBAE61630F7E74F0BB2E /* Sources */,
-				8F0EC94E4DD0B82B898E97933A5CC38D /* Frameworks */,
-				026DAF4ABA096370C2F08CABF8BE27AB /* Resources */,
+				658490C05E22DD257F7BD4B7F4427BA5 /* Headers */,
+				7C66B2DD608358350DFAFB01F45A6CF1 /* Sources */,
+				99499199F533B3A15BEC0860D668017C /* Frameworks */,
+				45A571591C663A770F8697736B652ECE /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				39D3C3C4CDC17252BEA06A0DC736D8A8 /* PBXTargetDependency */,
-				C75A360371DB9051FCB4CDF93F372A12 /* PBXTargetDependency */,
-			);
-			name = "Pods-LLAPPaySDK_Example";
-			productName = "Pods-LLAPPaySDK_Example";
-			productReference = E86B289AFB07926FFCF22D9094436F44 /* Pods_LLAPPaySDK_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		DC6495A4DDA45A11E4558A2E24642C2B /* Pods-LLAPPaySDK_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C12A8D8F7ECE92CF4E146B88F2DB06C5 /* Build configuration list for PBXNativeTarget "Pods-LLAPPaySDK_Tests" */;
-			buildPhases = (
-				1D1A70E1AB46893761BD021BE4A783FD /* Headers */,
-				FC80F3D8212C09BD11546A5E0CE35D25 /* Sources */,
-				3952922C00C8EFE0E7B3DF7A493B9067 /* Frameworks */,
-				A100252A3AD99F2FFC32E2DF5672951D /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BC3783E948B2A86B6DF5F8D63051E690 /* PBXTargetDependency */,
+				DA13A477BA93F9D1F5B238A72C2117D7 /* PBXTargetDependency */,
 			);
 			name = "Pods-LLAPPaySDK_Tests";
 			productName = "Pods-LLAPPaySDK_Tests";
-			productReference = 1D7BB2652C5D2E312E1E060161C94B78 /* Pods_LLAPPaySDK_Tests.framework */;
+			productReference = 52D839419C6AC9BCC0FD89B05CB60AB5 /* Pods_LLAPPaySDK_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E8210D530BD9AC7F09B576BED0E7B1CE /* Pods-LLAPPaySDK_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43BBD916EBEFB502D4BB1B30A0157AE4 /* Build configuration list for PBXNativeTarget "Pods-LLAPPaySDK_Example" */;
+			buildPhases = (
+				F0C9DC0A0E7E9CD8F7096B387AD41CF5 /* Headers */,
+				7F94FC1BC0B592AF8E393C33CCF2B20F /* Sources */,
+				775E46F7B2E21C4EF1C43E5625C3A442 /* Frameworks */,
+				2974CEC23973029372834FE6EA2627B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05B2FC63AEBB363301ECAC0DFABF836B /* PBXTargetDependency */,
+				76D4297C50DFD213DB360B3BB0B93F5A /* PBXTargetDependency */,
+			);
+			name = "Pods-LLAPPaySDK_Example";
+			productName = "Pods-LLAPPaySDK_Example";
+			productReference = 4C67E4755697E32A9FA4F24DE9C0BAB5 /* Pods_LLAPPaySDK_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -356,12 +356,12 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -371,23 +371,23 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B1FC4DFE2A6B006CE758BC7BB79BBFAC /* LLAPPaySDK */,
-				12A937244971A44F9443FB727F0B74D3 /* LLPay */,
-				A309DBDEA73F0189369C7EF3C8AD8972 /* Pods-LLAPPaySDK_Example */,
-				DC6495A4DDA45A11E4558A2E24642C2B /* Pods-LLAPPaySDK_Tests */,
+				71ADD57B19823BB92099975E7DF4AA7D /* LLAPPaySDK */,
+				504788249874A59923DA8FDAA3B631A8 /* LLPay */,
+				E8210D530BD9AC7F09B576BED0E7B1CE /* Pods-LLAPPaySDK_Example */,
+				4F649C8503C06D0CFA3B8D6F7BE19ECA /* Pods-LLAPPaySDK_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		026DAF4ABA096370C2F08CABF8BE27AB /* Resources */ = {
+		2974CEC23973029372834FE6EA2627B0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A100252A3AD99F2FFC32E2DF5672951D /* Resources */ = {
+		45A571591C663A770F8697736B652ECE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -397,48 +397,48 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5C32B7351E53FBAE61630F7E74F0BB2E /* Sources */ = {
+		7C66B2DD608358350DFAFB01F45A6CF1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0B219C4885429D9FEFA62322FAEC6A91 /* Pods-LLAPPaySDK_Example-dummy.m in Sources */,
+				29EB4552B2656CFEFD10E3BD8B451B84 /* Pods-LLAPPaySDK_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC80F3D8212C09BD11546A5E0CE35D25 /* Sources */ = {
+		7F94FC1BC0B592AF8E393C33CCF2B20F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2FEDD5637CE7B3E8A8FD8A942953FE5 /* Pods-LLAPPaySDK_Tests-dummy.m in Sources */,
+				C5822D9E1EB9B09BD3CF321972211664 /* Pods-LLAPPaySDK_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		05B2FC63AEBB363301ECAC0DFABF836B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LLAPPaySDK;
+			target = 71ADD57B19823BB92099975E7DF4AA7D /* LLAPPaySDK */;
+			targetProxy = 660BE31ADEF1AAB1E25AA16A919292DE /* PBXContainerItemProxy */;
+		};
 		2AB5AD010F9D75367E83AF0175F8F01D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LLPay;
-			target = 12A937244971A44F9443FB727F0B74D3 /* LLPay */;
+			target = 504788249874A59923DA8FDAA3B631A8 /* LLPay */;
 			targetProxy = 367DEF439DD0C0D270B16EC53BC1D88F /* PBXContainerItemProxy */;
 		};
-		39D3C3C4CDC17252BEA06A0DC736D8A8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = LLAPPaySDK;
-			target = B1FC4DFE2A6B006CE758BC7BB79BBFAC /* LLAPPaySDK */;
-			targetProxy = 528FD7FD70A65FE8CB2E844D4A2A969A /* PBXContainerItemProxy */;
-		};
-		BC3783E948B2A86B6DF5F8D63051E690 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-LLAPPaySDK_Example";
-			target = A309DBDEA73F0189369C7EF3C8AD8972 /* Pods-LLAPPaySDK_Example */;
-			targetProxy = 83F801CC217716DEEBD5C63589384C5C /* PBXContainerItemProxy */;
-		};
-		C75A360371DB9051FCB4CDF93F372A12 /* PBXTargetDependency */ = {
+		76D4297C50DFD213DB360B3BB0B93F5A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = LLPay;
-			target = 12A937244971A44F9443FB727F0B74D3 /* LLPay */;
-			targetProxy = C1FF5FC359DAFFBEEC9AA2339FB3C2AA /* PBXContainerItemProxy */;
+			target = 504788249874A59923DA8FDAA3B631A8 /* LLPay */;
+			targetProxy = B595D8EADA447C64B38BC9B9B01733AA /* PBXContainerItemProxy */;
+		};
+		DA13A477BA93F9D1F5B238A72C2117D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-LLAPPaySDK_Example";
+			target = E8210D530BD9AC7F09B576BED0E7B1CE /* Pods-LLAPPaySDK_Example */;
+			targetProxy = AE2DC5B08A7927C55B45E5E0649BA3AB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -457,7 +457,41 @@
 			};
 			name = Release;
 		};
-		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+		3E4FD054935773FE322E927AB88824BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8A1C5D16675095F977CBBDA4B9A1C0D /* Pods-LLAPPaySDK_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LLAPPaySDK_Tests/Pods-LLAPPaySDK_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LLAPPaySDK_Tests/Pods-LLAPPaySDK_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -512,14 +546,27 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		33D1A02F0B7FA9C6481CED7609B8F683 /* Debug */ = {
+		64CCEF9D1936E520F7B7D0385CDC109C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6B0C9403A3D1C9FF4B1D010687BFC664 /* Pods-LLAPPaySDK_Tests.debug.xcconfig */;
+			baseConfigurationReference = 33B6F2BAB6332311FCFF9A9DCF26A1D5 /* LLPay.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6724B374A2F98D781B933C56D31A97C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4976631FD0D644D5F1B1E70B2A02B672 /* Pods-LLAPPaySDK_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -550,7 +597,7 @@
 			};
 			name = Debug;
 		};
-		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
+		7EF7227D9B20A1D549000096ACCB23D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -609,88 +656,8 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-		64CCEF9D1936E520F7B7D0385CDC109C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33B6F2BAB6332311FCFF9A9DCF26A1D5 /* LLPay.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		93F95E6A01F9C56F9D6EA458227D6F21 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C80EF32D39887B7F2B5A88BC0A01AF9 /* Pods-LLAPPaySDK_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LLAPPaySDK_Tests/Pods-LLAPPaySDK_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LLAPPaySDK_Tests/Pods-LLAPPaySDK_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A270E801FBBAE94B725E18930A4A244B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7B68AC69488B39D63260D6A708819CA6 /* Pods-LLAPPaySDK_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-LLAPPaySDK_Example/Pods-LLAPPaySDK_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-LLAPPaySDK_Example/Pods-LLAPPaySDK_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -708,9 +675,22 @@
 			};
 			name = Release;
 		};
-		B2E4E4F022BF423BD8BC2EDF91CC49C6 /* Release */ = {
+		CC9DBB84289BB0817DC6673378E6F039 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6328A5F9E8617DC81F563B231F8993CF /* Pods-LLAPPaySDK_Example.release.xcconfig */;
+			baseConfigurationReference = F85132D30AC5CE13C30362BB8DDB7204 /* LLAPPaySDK.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA526312764ECED96ECD7408EA3AA631 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D2D45AB69DA51BD68E0270D4EB8C0FF /* Pods-LLAPPaySDK_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -742,27 +722,47 @@
 			};
 			name = Release;
 		};
-		CC9DBB84289BB0817DC6673378E6F039 /* Debug */ = {
+		F50E81F51B4A96675F690CD7A405DC48 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F85132D30AC5CE13C30362BB8DDB7204 /* LLAPPaySDK.xcconfig */;
+			baseConfigurationReference = 0C9D9A40A7C74D1F349BBE4CB2A98FE1 /* Pods-LLAPPaySDK_Example.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-LLAPPaySDK_Example/Pods-LLAPPaySDK_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LLAPPaySDK_Example/Pods-LLAPPaySDK_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		29228E9E2027178680C85D7F528BDB82 /* Build configuration list for PBXNativeTarget "Pods-LLAPPaySDK_Example" */ = {
+		43BBD916EBEFB502D4BB1B30A0157AE4 /* Build configuration list for PBXNativeTarget "Pods-LLAPPaySDK_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A270E801FBBAE94B725E18930A4A244B /* Debug */,
-				B2E4E4F022BF423BD8BC2EDF91CC49C6 /* Release */,
+				F50E81F51B4A96675F690CD7A405DC48 /* Debug */,
+				DA526312764ECED96ECD7408EA3AA631 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -770,8 +770,17 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
-				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+				7EF7227D9B20A1D549000096ACCB23D7 /* Debug */,
+				4BE66A09A74FD25164AAB3C2645B9B93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D9D7E755B2A728F7C4C98D73D2D62FC /* Build configuration list for PBXNativeTarget "Pods-LLAPPaySDK_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6724B374A2F98D781B933C56D31A97C0 /* Debug */,
+				3E4FD054935773FE322E927AB88824BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -790,15 +799,6 @@
 			buildConfigurations = (
 				CC9DBB84289BB0817DC6673378E6F039 /* Debug */,
 				0090962C1E5419F628D2EE19F72FF0E3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C12A8D8F7ECE92CF4E146B88F2DB06C5 /* Build configuration list for PBXNativeTarget "Pods-LLAPPaySDK_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				33D1A02F0B7FA9C6481CED7609B8F683 /* Debug */,
-				93F95E6A01F9C56F9D6EA458227D6F21 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
